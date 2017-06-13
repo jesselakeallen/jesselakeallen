@@ -3,6 +3,12 @@
   <head>
     <meta charset="UTF-8">
     <title>Jesse Allen Portfolio</title>
+    <script src="jquery.js"></script>
+    <script>
+      $(function(){
+        $("#includedContent").load("header.html");
+      });
+    </script>
   <!-- <link rel="stylesheet" href="//fonts.googleapis.com/css?family=font1|font2|etc" type="text/css">
   <link rel="stylesheet" href="stylesheet.css" type="text/css"> -->
   <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
@@ -58,12 +64,7 @@
   </style>
   </head>
   <body>
-<div class="header">
-  <h1>Jesse Allen Portfolio</h1>
-  <a href="index.html">Gallery</a>
-  <a href="videos.html">Videos</a>
-  <a href="code.html">Code</a>
-  <a href="3d.html">3D</a>
+<div id="includedContent">
 </div>
 <div class="gallery">
   <h2>2D Platformer</h2>
