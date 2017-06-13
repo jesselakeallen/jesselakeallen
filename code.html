@@ -3,77 +3,25 @@
   <head>
     <meta charset="UTF-8">
     <title>Jesse Allen Portfolio</title>
-  <!-- <link rel="stylesheet" href="//fonts.googleapis.com/css?family=font1|font2|etc" type="text/css">
-  <link rel="stylesheet" href="stylesheet.css" type="text/css"> -->
+    <script src="jquery.js"></script>
+    <script>
+      $(function(){
+        $("#includedContent").load("header.html");
+      });
+    </script>
   <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
-  <style type="text/css">
-    .gallery{
-      width: 70%;
-      margin-left: auto;
-      margin-right: auto;
-
-    }
-    .header{
-      background-color: #2196F3;
-      color: #FFF;
-      padding: 1%;
-      padding-left: 15%;
-      padding-right: 15%;
-      margin-bottom: 1%;
-      box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
-    }
-    html{
-      font-family: 'Roboto', sans-serif;
-    }
-    body{
-      margin: 0;
-    }
-    h1{
-      font-weight: lighter;
-    }
-    a{
-      color: #FFF;
-      font-size: 12pt;
-      font-weight: bold;
-      padding: 0.5%;
-      font-style: normal;
-      text-decoration: none;
-    }
-    img{
-      height: 32%;
-      width: 32%;
-      margin: 5px;
-      box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
-      transition: all 0.3s cubic-bezier(.25,.8,.25,1);
-    }
-    img:hover {
-      box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
-}
-    /*div{
-      margin-left: 100%;
-      margin-right: 100%;
-    }*/
-  </style>
+  <link rel="stylesheet" type="text/css" href="style.css">
   </head>
   <body>
-<div class="header">
-  <h1>Jesse Allen Portfolio</h1>
-  <a href="index.html">Gallery</a>
-  <a href="videos.html">Videos</a>
-  <a href="code.html">Code</a>
-  <a href="3d.html">3D</a>
-</div>
+
+<div id="includedContent"></div>
+
 <div class="gallery">
-  <h2>2D Platformer</h2>
-  <h3>Background Art</h3>
-  <img src="img\background1.png" alt=""><img src="img\background2.png" alt="">
-  <h3>Sprites</h3>
-  <img src="img\sprite1.png" alt=""><img src="img\sprite2.png" alt=""><img src="img\sprite3.png" alt=""><img src="img\sprite4.png" alt="">
-  <h3>Tile Maps</h3>
-  <img src="img\tilemap01.png" alt=""><img src="img\tilemap02.png" alt=""><img src="img\tilemap03.png" alt="">
-  <h2>Tire Company</h2>
-  <img src="img\render1.jpg" alt=""><img src="img\render2.jpg" alt=""><img src="img\render3.jpg" alt=""><img src="img\render4.jpg" alt="">
-  <img src="img\tire1.png" alt="">
+  <h2>Videos</h2>
+  <h3></h3>
+  <iframe width="854" height="480" src="https://www.youtube.com/embed/akOUUGyJc8I?" frameborder="0" allowfullscreen></iframe>
+  <iframe width="854" height="480" src="https://www.youtube.com/embed/OInpID2JF7k?" frameborder="0" allowfullscreen></iframe>
 </div>
+
   </body>
 </html>
